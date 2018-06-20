@@ -1,6 +1,6 @@
 #ifndef CANVAS_H
 #define CANVAS_H
-
+//~ #include "Canvas.cpp"
 /////////////////////////  Canvas  ///////////////////////////
 
 //Canvas Constants
