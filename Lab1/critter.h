@@ -16,21 +16,28 @@ using namespace std;
 class Critter
 {
 public:
+	int hanger;
     /**
      * @brief Critter
      * Вывод приветствие
      */
-    Critter();
+    void Hello(){
+		cout << "Здравствуйте! Меня зовут Слон и я хочу есть! Покорми меня!" << endl;
+		} 
+    Critter(){
+		hanger=0;
+		}
     Critter(int hunger);
-    ~Critter();
+    //~Critter();
 
     /**
      * @brief getHungerLevel функция возвращает текущий уровень
      * оголодалости животного
      * @return уровень голода
      */
-    int getHungerLevel();
-
+    int getHungerLevel(){
+		return 0;
+		}
     /**
      * @brief passTime функция эмуляция прошедшего времени
      * При вызове увеличивает уровень голода,
@@ -69,5 +76,12 @@ private:
     int hunger_;
     int active_;
 };
+
+int main(void){
+	Critter Slon;
+	Slon.Hello();
+	
+	return 0;
+	}
 
 #endif
