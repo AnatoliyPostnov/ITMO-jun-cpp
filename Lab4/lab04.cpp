@@ -1,5 +1,5 @@
 #include <iostream>
-#include "IntVector_lab06.h"
+#include "IntVector_lab04.cpp"
 
 using namespace std;
 
@@ -16,7 +16,7 @@ int main(){
 
   cout << "Calling cout << v..." << endl;
   cout << " Solution: [ 1, 2, 3, 4, 5 ]" << endl;
-  cout << "Your code: "; cout << v; cout << endl << endl;
+  cout << "Your code: "; cout << v; cout << endl << endl; 
 
   cout << "Calling v.pop_back() twice..." << endl;
   v.pop_back();

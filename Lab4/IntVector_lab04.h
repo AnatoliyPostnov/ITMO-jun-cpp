@@ -58,7 +58,10 @@ public:
   //          в следующем формате:
   //          [ elem0, elem1, elem2, ... ]
   void print(std::ostream &os) const;
-
+  //вернуть приватный элемент numElements
+  int get_numElements();
+  //вернуть приватный элемент data 
+  int* get_data();
   
 private:
 
